@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "scrape-data": "node populate/scrape-data",
+    "scrape-data-inspect": "node --inspect-brk populate/scrape-data"
   },
   "keywords": [],
   "author": "",
